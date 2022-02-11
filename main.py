@@ -31,9 +31,9 @@ class Book:
     
     littleLibrary.append(Book(001, "Richard Dawkins", "Books Do Furnish a Life", bookGenre.NONFICTION))
     littleLibrary.append(Book(002, "Yuval Noah Harari", "Homo Deus: A History of Tomorrow", bookGenre.NONFICTION))
-    littleLibrary.append(Book(003, " Art Spiegelman", "MAUS: A Survivor's Tale", bookGenre.NONFICTION))
+    littleLibrary.append(Book(003, "Art Spiegelman", "MAUS: A Survivor's Tale", bookGenre.NONFICTION))
     littleLibrary.append(Book(004, "James Luceno", "Darth Plagueis", bookGenre.FICTION))
-    littleLibrary.append(Book(005, "Miri Yu", "Tokyo Ueno Station", bookGenre.FICTION))
+    littleLibrary.append(Book(005, "Junji Ito", "Uzumaki", bookGenre.FICTION))
     littleLibrary.append(Book(006, "Mikhail Bulgakov", "Heart of a Dog", bookGenre.FICTION))
     
     # for loop for each index print the book, uses printBook method to display info
